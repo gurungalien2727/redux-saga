@@ -24,7 +24,7 @@ const mapStateToProps = state => {
 
 const mapDispachToProps = dispatch => {
   return {
-    onAgeUp: () => dispatch({ type: "AGE_UP", value: 1 }),
+    onAgeUp: () => dispatch({ type: "AGE_UP_TEST", value: 1 }),
     onAgeDown: () => dispatch({ type: "AGE_DOWN", value: 1 })
   };
 };

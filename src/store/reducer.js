@@ -6,7 +6,7 @@ const reducer = (state=initialState, action) => {
     const newState = {...state};
 
     switch(action.type){
-        case 'AGE_UP': 
+        case 'AGE_UP_FROM_SAGA': 
             newState.age += action.value;
             break;
         
